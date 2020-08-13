@@ -44,7 +44,6 @@
 ## BIOS Configuration Settings:
 
 ```  
-
 - CPU: Intel Core i7-5600U
 - Memory: 8192 MB
 - Wake on LAN disabled for all options
