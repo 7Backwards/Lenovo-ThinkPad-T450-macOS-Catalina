@@ -57,6 +57,16 @@
 - Hyper threading enabled
 ```
 
+## Disclaimer:
+
+``` 
+This repo aims to assist people with the same hardware as me, giving them a solution that works without any additional work.
+I´m not responsible for the development of any kext or any clover configurations present on my EFI, i simply want to share my working hackintosh solution.
+Any issues please get in contact with jsassu20 or AppleIntelWifi as they are better suited to help you.
+If you want to contribute with any amount please do so on jsassu20 repo as he is responsible for 90% + of the solution.
+Enjoy!
+``` 
+
 ## Credits
 
 jsassu20: For providing the base EFI in which i made tweaks to make it work better for my hardware.
