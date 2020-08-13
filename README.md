@@ -18,7 +18,7 @@
 - Dual Core @ 2.7 GHz (up to 3.7 GHz with Turbo Boost) 
 - Samsung 8gb (2x4) | DDR3 @ 1600 MHz
 - Intel HD 5500 Graphics | 1536 MB VRAM | Full QE/CI & Metal Support  | HDMI Out @ 3840x2160 Max Resolution
-- LG 1080P Full High Definition IPS Display LP140WF6(SP)(C2) (Replaced stock 1600x900 TN Display)
+- Stock 1920x1080p display
 - 3 Solid State Drives | 500G Samsung 850 Evo SATA | 1TB Samsung 840 Evo M.2 | 500G Samsung 840 Evo M.2
 - Realtek SDHC | 3x USB 3.1 | HDMI | Intel Gigabit LAN | SIM card  | AUX In/Out | Microphone | HD Webcam 
 - Dual Battery Setup (Hot Patched and fully functioning with accurate percentage reporting)   
