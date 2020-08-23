@@ -471,36 +471,40 @@
 	<dict>
 		<key>NoEarlyProgress</key>
 		<false/>
-		<key>HibernationFixup</key>
-		<false/>
 		<key>NeverHibernate</key>
 		<true/>
+		<key>SkipHibernateTimeout</key>
+		<true/>
+		<key>HibernationFixup</key>
+		<false/>
 		<key>Secure</key>
 		<false/>
-		<key>#DefaultVolume</key>
-		<string>LastBootedVolume</string>
 		<key>Arguments</key>
 		<string>kext-dev-mode=1 dart=0 nv_disable=1 debug=0x100</string>
+		<key>#DefaultVolume</key>
+		<string>LastBootedVolume</string>
 		<key>XMPDetection</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>0</integer>
-		<key>SkipHibernateTimeout</key>
-		<true/>
+		<integer>1</integer>
+		<key>DefaultVolume</key>
+		<string>Mojave</string>
 	</dict>
 	<key>GUI</key>
 	<dict>
+		<key>PlayAsync</key>
+		<false/>
+		<key>KbdPrevLang</key>
+		<false/>
+		<key>Language</key>
+		<string>en:0</string>
+		<key>ScreenResolution</key>
+		<string>1920x1080</string>
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
 			<string>UEFI internal</string>
 		</array>
-		<key>KbdPrevLang</key>
-		<false/>
-		<key>Language</key>
-		<string>en:0</string>
-		<key>PlayAsync</key>
-		<false/>
 		<key>Scan</key>
 		<dict>
 			<key>Entries</key>
@@ -555,33 +559,6 @@
 				<string>Internal</string>
 				<key>device_type</key>
 				<string>PCI Bridge</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1d,0x0)</key>
-			<dict>
-				<key>AAPL,current-available</key>
-				<data>AAg0</data>
-				<key>AAPL,device-internal</key>
-				<data>Ag==</data>
-				<key>device-id</key>
-				<data>ppwAAA==</data>
-				<key>AAPL,current-in-sleep</key>
-				<data>AAPo</data>
-				<key>AAPL,current-extra</key>
-				<data>AAiY</data>
-				<key>device_type</key>
-				<string>USB Controller</string>
-				<key>AAPL,max-port-current-in-sleep</key>
-				<data>AAg0</data>
-				<key>vendor-id</key>
-				<data>gIYAAA==</data>
-				<key>AAPL,slot-name</key>
-				<string>Built In</string>
-				<key>AAPL,current-extra-in-sleep</key>
-				<data>AAZA</data>
-				<key>model</key>
-				<string>Intel 9 Series Chipset Family Wildcat Point-LP Enhanced USB 2.0 EHCI Controller</string>
-				<key>name</key>
-				<string>Enhanced USB Controller</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
 			<dict>
@@ -757,16 +734,32 @@
 				<key>device_type</key>
 				<string>Communication Controller</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1c,0x1)/Pci(0x0,0x0)</key>
+			<key>PciRoot(0x0)/Pci(0x1d,0x0)</key>
 			<dict>
-				<key>model</key>
-				<string>Apple AirPort Extreme Broadcom BCM4360 802.11ac Wireless Network Adapter</string>
-				<key>name</key>
-				<string>Apple AirPort Extreme</string>
-				<key>AAPL,slot-name</key>
-				<string>Slot-4</string>
+				<key>AAPL,current-available</key>
+				<data>AAg0</data>
+				<key>AAPL,device-internal</key>
+				<data>Ag==</data>
+				<key>device-id</key>
+				<data>ppwAAA==</data>
+				<key>AAPL,current-in-sleep</key>
+				<data>AAPo</data>
+				<key>AAPL,current-extra</key>
+				<data>AAiY</data>
 				<key>device_type</key>
-				<string>AirPort Extreme</string>
+				<string>USB Controller</string>
+				<key>AAPL,max-port-current-in-sleep</key>
+				<data>AAg0</data>
+				<key>vendor-id</key>
+				<data>gIYAAA==</data>
+				<key>AAPL,slot-name</key>
+				<string>Built In</string>
+				<key>AAPL,current-extra-in-sleep</key>
+				<data>AAZA</data>
+				<key>model</key>
+				<string>Intel 9 Series Chipset Family Wildcat Point-LP Enhanced USB 2.0 EHCI Controller</string>
+				<key>name</key>
+				<string>Enhanced USB Controller</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1c,0x1)</key>
 			<dict>
